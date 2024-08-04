@@ -1,0 +1,45 @@
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 24px;
+    background-color: rgba(124, 51, 225, 0.8);
+    z-index: 100;
+}
+
+header nav{
+    display: flex;
+    width: max-content;
+    margin: 0 0 0 auto;
+}
+
+header nav a{
+    display: block;
+    margin: 0 24px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+img {
+    width: 500px;
+    height: 270px;
+}
+.top_image_wrapper {
+    text-align: center;
+}
+
+.main_image_wrapper {
+    text-align: center;
+}
+
+.main_2_image_wrapper {
+    width: 500px;
+    height: 750px;
+    text-align: center;
+}
+
+* {
+    text-align: center;
+}
